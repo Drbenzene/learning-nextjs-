@@ -10,7 +10,7 @@ function LoginBtn(props) {
     <div>
         <button
         className={`${bgColor} px-10 py-5  cursor-pointer`}
-        onClick={() => onClickHandler()}>
+       >
             {btnText}
             </button>
         </div>

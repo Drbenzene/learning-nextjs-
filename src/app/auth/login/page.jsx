@@ -18,7 +18,7 @@ function page() {
     }
   return (
     <div>
-        <LoginBtn onClickHandler={loginClicked} btnText="Login Here" bgColor={"bg-black"}/>
+        <LoginBtn btnText="Login Here" bgColor={"bg-black"}/>
                 <LoginBtn onClickHandler={signupClicked} btnText="Sign up alaye Here" bgColor={"bg-red-300"}/>
 
     </div>
